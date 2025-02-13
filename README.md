@@ -30,16 +30,5 @@ def extract_message(image_path):
     pass
 </pre>
 <button onclick="copyToClipboard('exampleCode')">Copy Code</button>
-<script>
-function copyToClipboard(elementId) {
-  var copyText = document.getElementById(elementId);
-  var textarea = document.createElement("textarea");
-  textarea.textContent = copyText.textContent;
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textarea);
-  alert("Copied to clipboard!");
-}
-</script>
+
 
